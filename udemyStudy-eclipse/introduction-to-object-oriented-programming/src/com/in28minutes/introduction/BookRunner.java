@@ -12,6 +12,8 @@ public class BookRunner {
 		effective_Java.search();
 		clean_Code.search();
 		
+		art_Of_Computer_programming.noOfPages(8);
+		effective_Java.noOfCopies(12);
 		clean_Code.noOfCopies(6);
 	}
 }

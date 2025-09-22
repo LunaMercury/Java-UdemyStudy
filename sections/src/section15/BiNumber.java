@@ -4,6 +4,7 @@ public class BiNumber {
 	private int number1;
 	private int number2;
 
+	// 최소공배수
 	public int calculateLCM() {
 
 		if (number1 < 0 || number2 < 0) {
@@ -35,6 +36,7 @@ public class BiNumber {
 
 	}
 
+	// 최대공약수
 	public int calculateGCD() {
 		if (number1 < 0 || number2 < 0) {
 			return 1;
@@ -90,8 +92,8 @@ public class BiNumber {
 	}
 
 	public static void main(String[] args) {
-//		BiNumber num = new BiNumber(55, 45);
-//		System.out.println(num.calculateLCM());
+		BiNumber num = new BiNumber(55, 45);
+		System.out.println(num.calculateLCM());
 
 		BiNumber binum = new BiNumber(48, 18);
 		System.out.println(binum.calculateGCD()); // Output: 6

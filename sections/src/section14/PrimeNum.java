@@ -1,3 +1,5 @@
+// 소수 구하기
+
 package section14;
 
 import java.util.ArrayList;
